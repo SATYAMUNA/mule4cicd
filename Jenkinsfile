@@ -10,7 +10,7 @@ pipeline{
  	stage ('Build'){
  		steps {
 		
- 				bat 'mvn -f clean install'
+ 				bat 'mvn -f mule4cicd/pom.xml clean install'
  			
  		}
  	}
